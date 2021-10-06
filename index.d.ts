@@ -23,3 +23,5 @@ export function byIso(code: string | number): SearchOutput;
 export function byInternet(code: string): SearchOutput;
 
 export function byCountry(country: string): SearchOutput;
+export function search(code: string, labels: string[]): SearchOutput;
+export function fuzzySearch(code: string, labels: string[]): SearchOutput;
