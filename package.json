@@ -1,6 +1,6 @@
 {
   "name": "country-code-search",
-  "version": "0.0.19",
+  "version": "0.0.21",
   "description": "Finds countries by various country codes",
   "main": "index.js",
   "types": "./index.d.ts",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ivorpad/country-code-search.git"
+    "url": "git+https://github.com/ivorpad/country-code-search.git"
   },
   "keywords": [
     "fips",
@@ -23,5 +23,9 @@
   "homepage": "https://github.com/ivorpad/country-code-search",
   "devDependencies": {
     "mocha": "^5.2.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/ivorpad/country-code-search/issues"
+  },
+  "dependencies": {}
 }
