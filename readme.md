@@ -37,10 +37,14 @@ lookup.byIso(826)
 lookup.byInternet('UK')
 
 // search by country name
-lookup.byCountry('United Kingdom')
+lookup.byCountry('United Kingdom');
 
 // get an array of all countries
-lookup.countries
+const countries = lookup.countries
+
+// Find with search or fuzzySearch
+countries.search('US', ["iso2", "fips", "country"])
+countries.fuzzySearch('US', ["iso2", "fips", "country"])
 ```
 
 Searching for a country will return either null, or a country object:
