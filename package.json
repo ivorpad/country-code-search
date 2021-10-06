@@ -1,5 +1,5 @@
 {
-  "name": "country-code-lookup",
+  "name": "country-code-search",
   "version": "0.0.19",
   "description": "Finds countries by various country codes",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/richorama/country-code-lookup.git"
+    "url": "https://github.com/ivorpad/country-code-search.git"
   },
   "keywords": [
     "fips",
@@ -20,10 +20,7 @@
   ],
   "author": "Richard Astbury",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/richorama/country-code-lookup/issues"
-  },
-  "homepage": "https://github.com/richorama/country-code-lookup",
+  "homepage": "https://github.com/ivorpad/country-code-search",
   "devDependencies": {
     "mocha": "^5.2.0"
   }

@@ -2,7 +2,7 @@
 ![](https://github.com/richorama/country-code-lookup/workflows/Node%20CI/badge.svg?branch=master) 
 [![Downloads](https://img.shields.io/npm/dm/country-code-lookup.svg)](https://npmcharts.com/compare/country-code-lookup?minimal=true)
 
-# Country Code Lookup
+# Country Code Search
 
 A node.js module to look up countries by various country codes.
 
@@ -17,13 +17,13 @@ Supported codes:
 ## Installation
 
 ```
-$ npm install country-code-lookup
+$ npm install country-code-search
 ```
 
 ## Usage
 
 ```js
-const lookup = require('country-code-lookup')
+const lookup = require('country-code-search')
 
 // search by FIPS
 lookup.byFips('UK')
